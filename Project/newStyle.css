@@ -1,0 +1,123 @@
+.main {
+    height: 100vh;
+}
+
+body {
+    background-color: #d0e4f9;
+}
+
+.header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.map-container {
+    height: 400px;
+}
+
+#map {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.cards-container .card-title {
+    color: #402f20;
+    font-weight: 400px;
+}
+
+.cards-container .total {
+    font-size: 0.8rem;
+}
+
+.cards-container .card-subtitle {
+    font-weight: 600;
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #ececec;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.chart-container {
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chart-container .col {
+    border-radius: 12px;
+    background-color: #E4E3E3;
+}
+
+.linear-chart{
+    height: 100%;
+}
+
+.project-title h2 {
+    color: #696969;
+    margin-bottom: 0;
+}
+
+.project-title h4 {
+    color: #C11A1A;
+}
+
+.total-confirmed {
+    color: #0D2F54 ;
+}
+
+.total-recovered {
+    color: #8BCF51 ;
+}
+
+.total-death {
+    color: #EC0E0E;
+}
+
+.right-part {
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+
+}
+.country-table-container h4, .news-container h4 {
+    font-weight: 400;
+    color: #4b3e33;
+}
+
+.country-table {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: scroll;
+    height: 500px; /* edit angka */
+}
+
+.table thead th {
+    vertical-align: middle;
+    text-align: center;
+    font-size: small;
+}
+
+.country-table .table td {
+    border: none;
+    padding: 0.5 rem;
+}
+
+.news-link {
+    height: 325px;
+    width: 100%;
+    background-color: aqua;
+}
